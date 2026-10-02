@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Document Page Base (with top-right folded corner) -->
+    <path
+        android:pathData="M32,22 L64,22 L76,34 L76,84 C76,86.5 74,88.5 71.5,88.5 L32.5,88.5 C30,88.5 28,86.5 28,84 L28,26.5 C28,24 30,22 32,22 Z"
+        android:fillColor="#0D241C"
+        android:strokeColor="#10B981"
+        android:strokeWidth="2.5" />
+
+    <!-- Folded Corner Sheet -->
+    <path
+        android:pathData="M64,22 L64,34 L76,34 Z"
+        android:fillColor="#34D399" />
+
+    <!-- Document Content Lines -->
+    <path
+        android:pathData="M36,34 L56,34"
+        android:strokeColor="#059669"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M36,42 L52,42"
+        android:strokeColor="#059669"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+
+    <!-- Security Padlock Shackle -->
+    <path
+        android:pathData="M46,55 L46,48 C46,43.5 49.5,40 54,40 C58.5,40 62,43.5 62,48 L62,55"
+        android:strokeColor="#A7F3D0"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Security Padlock Body -->
+    <path
+        android:pathData="M40,55 L68,55 C70,55 71.5,56.5 71.5,58.5 L71.5,76.5 C71.5,78.5 70,80 68,80 L40,80 C38,80 36.5,78.5 36.5,76.5 L36.5,58.5 C36.5,56.5 38,55 40,55 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="36.5"
+                android:startY="55"
+                android:endX="71.5"
+                android:endY="80"
+                android:type="linear">
+                <item android:color="#059669" android:offset="0.0" />
+                <item android:color="#10B981" android:offset="0.5" />
+                <item android:color="#34D399" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Padlock Keyhole -->
+    <path
+        android:pathData="M54,61 C52.5,61 51.5,62.2 51.5,63.5 C51.5,64.5 52,65.3 52.8,65.8 L52.4,71 C52.4,71.8 53.1,72.5 54,72.5 C54.9,72.5 55.6,71.8 55.6,71 L55.2,65.8 C56,65.3 56.5,64.5 56.5,63.5 C56.5,62.2 55.5,61 54,61 Z"
+        android:fillColor="#06251E" />
+</vector>
